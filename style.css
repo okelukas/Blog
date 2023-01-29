@@ -1,0 +1,148 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 1024px;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(183, 100, 252);
+  align-items: center;
+  max-width: 1024px;
+}
+
+.nav-left {
+  display: flex;
+  margin-left: 2em;
+  width: 600px;
+}
+
+.nav_headlines {
+  padding-left: 1em;
+  display: grid;
+  grid-template-rows: 40px 40px;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.nav-right {
+  width: 80%;
+}
+
+body nav .nav-right ul {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+}
+
+body nav .nav-right ul li {
+  margin-right: 2em;
+}
+
+body nav .nav-right ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+
+  grid-template-columns: 1fr 4fr 2fr;
+  grid-template-rows: 6fr 6fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.linkslinks_oben {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 2;
+}
+
+.linkslinks_oben img {
+  height: 250px;
+  width: 250px;
+}
+
+.links-oben {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-column-end: 2;
+}
+
+.links-unten {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.linkslinks_unten {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.linkslinks_unten img {
+  height: 250px;
+  width: 250px;
+}
+
+.rechts {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  color: black;
+}
+
+.contact {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 1fr;
+  margin-top: 4em;
+}
+
+.us {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+hr {
+  margin-top: 3em;
+  width: 80%;
+  height: 2px;
+  color: black;
+  background-color: rgb(183, 100, 252);
+  border-bottom: 1px solid black;
+}
+
+footer {
+  font-size: 0.8em;
+}
+
+.socialMedia img {
+  width: 50px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.copyright {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
